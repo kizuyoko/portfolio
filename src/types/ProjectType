@@ -1,0 +1,9 @@
+export type ProjectType = {
+  id: string;
+  title: string;
+  image: string;
+  description: string;
+  stack: string[];
+  demo: string;
+  git: string;
+}

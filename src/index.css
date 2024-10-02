@@ -6,4 +6,27 @@
   body {
     font-family: "Nunito", sans-serif;
   }
+  h1 {
+    @apply text-4xl font-bold;
+  }
+  h3 {
+    @apply text-2xl font-bold text-violet-900;
+  }
+  p {
+    @apply mt-2 text-lg;
+  }
+  a {
+    @apply text-blue-300 hover:text-blue-400;
+  }
+  button {
+    @apply mt-2 bg-blue-500 text-white font-bold py-2 px-4 rounded hover:bg-blue-600 transition duration-200;
+  }
+  article:nth-child(even) {
+    @apply bg-slate-200;
+  }
+}
+
+.social-icon {
+  width: 40px !important;
+  height: 40px !important;
 }
