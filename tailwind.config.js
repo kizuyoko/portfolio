@@ -7,11 +7,13 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'custom-image': "url('/background_jumbotron.png')", // Corrected path for public directory
+        'custom-image': "url('/background_jumbotron.png')", 
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require('tailwindcss-animated')
+  ],
   purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
 }
 

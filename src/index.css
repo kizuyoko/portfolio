@@ -21,8 +21,21 @@
   button {
     @apply mt-2 bg-blue-500 text-white font-bold py-2 px-4 rounded hover:bg-blue-600 transition duration-200 shadow;
   }
+  article:nth-child(odd) > div {
+    @apply animate-fade-left animate-duration-1000;
+  }
+
+  article:nth-child(even) > div {
+    @apply animate-fade-right animate-duration-1000;
+  }
   article:nth-child(even) {
     @apply bg-slate-200;
+  }
+  article:nth-child(even) > div {
+    @apply md:flex-row-reverse;
+  }
+  article:nth-child(even) .product-image {
+    @apply md:pl-0 md:pr-10;
   }
 }
 
