@@ -5,8 +5,12 @@ import projects from "../data";
 const Projects: React.FC = () => {
   return (
     <section>
-      {projects.map(project => ( 
-        <Project key={project.id} {...project} />
+      {projects.map((project, index) => ( 
+        <Project 
+          key={project.id} 
+          index={index % 2 === 0 ? 'even' : 'odd'} 
+          {...project} 
+        />
       ))} 
     </section>
   );

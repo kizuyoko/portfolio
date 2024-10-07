@@ -1,10 +1,34 @@
+import { useEffect, useRef, useState } from 'react';
 import { SocialIcon } from 'react-social-icons';
 import { ProjectType } from '../data';
 
-const Project = ({ title, description, image, stack, demo, git }: ProjectType) => {
+const Project = ({ title, description, image, stack, demo, git, index }: ProjectType) => {
+  const [isVisible, setIsVisible] = useState(false); 
+  const ref = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(([entry]) => {
+      if (entry.isIntersecting) {
+        setIsVisible(true);
+        observer.disconnect();
+      }
+    });
+
+    if (ref.current) {
+      observer.observe(ref.current); 
+    }
+
+    return () => {
+      observer.disconnect();
+    };
+  }, []);
+
   return (
-    <article className="w-full flex flex-col items-center justify-center p-4 pt-10 pb-10">
-      <div className="flex flex-col md:flex-row w-full max-w-4xl">
+    <article ref={ref} className="w-full flex flex-col items-center justify-center p-4 pt-10 pb-10">
+      <div className={`flex flex-col md:flex-row w-full max-w-4xl 
+        ${isVisible && index === 'odd' ? 'animate-fade-left animate-duration-50000' : ''}
+        ${isVisible && index === 'even' ? 'animate-fade-right animate-duration-50000' : ''}
+      `} >
         <div className="w-full md:w-1/4 mb-4 md:mb-0 flex justify-center">
           <img src={image} alt="Description" className="w-2/3 md:w-full h-auto rounded shadow" />
         </div>
@@ -18,6 +42,6 @@ const Project = ({ title, description, image, stack, demo, git }: ProjectType) =
       </div>
     </article>
   );
-}; // {{ edit_7 }}
+};
 
 export default Project;

@@ -6,4 +6,5 @@ export type ProjectType = {
   stack: string[];
   demo: string;
   git: string;
+  index?: number;
 }

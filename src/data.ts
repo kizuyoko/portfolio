@@ -6,6 +6,7 @@ export type ProjectType = {
   stack: string[];
   demo: string;
   git: string;
+  index?: string; 
 }
 
 const projects: ProjectType[] = [
