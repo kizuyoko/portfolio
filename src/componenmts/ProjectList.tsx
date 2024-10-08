@@ -2,7 +2,7 @@ import React from "react";
 import Project from "./Project";
 import projects from "../data";
 
-const Projects: React.FC = () => {
+const ProjectList: React.FC = () => {
   return (
     <section>
       {projects.map((project, index) => ( 
@@ -16,4 +16,4 @@ const Projects: React.FC = () => {
   );
 }
 
-export default Projects;
+export default ProjectList;

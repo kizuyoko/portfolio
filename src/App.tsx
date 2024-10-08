@@ -1,12 +1,14 @@
 import Header from './componenmts/Header'
 import Footer from './componenmts/Fotter'
-import Projects from './componenmts/Projects'
+import ProjectList from './componenmts/ProjectList'
+import ProjectListTitle from './componenmts/ProjectListTitle'
 
 function App() {
   return (
     <>
       <Header />
-      <Projects />
+      <ProjectListTitle />
+      <ProjectList />
       <Footer />
     </>
   )
