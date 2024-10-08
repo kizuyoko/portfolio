@@ -26,8 +26,8 @@ const Project = ({ title, description, image, stack, demo, git, index }: Project
   return (
     <article ref={ref} className="w-full flex flex-col items-center justify-center p-4 pt-10 pb-10">
       <div className={`flex flex-col md:flex-row w-full max-w-4xl 
-        ${isVisible && index === 'odd' ? 'animate-fade-left animate-duration-[2000ms]  animate-ease-out' : ''}
-        ${isVisible && index === 'even' ? 'animate-fade-right animate-duration-[2000ms]  animate-ease-out' : ''}
+        ${isVisible && index === 'odd' ? 'animate-fade-up md:animate-fade-left animate-duration-[2000ms]  animate-ease-out' : ''}
+        ${isVisible && index === 'even' ? 'animate-fade-up md:animate-fade-right animate-duration-[2000ms]  animate-ease-out' : ''}
       `} >
         <div className="w-full md:w-1/4 mb-4 md:mb-0 flex justify-center">
           <img src={image} alt="Description" className="w-2/3 md:w-full h-auto rounded shadow" />
