@@ -19,10 +19,18 @@
     @apply text-blue-300 hover:text-blue-400;
   }
   button {
-    @apply mt-2 bg-blue-600 text-white font-bold py-2 px-4 rounded hover:bg-blue-500 transition duration-200 shadow;
+    @apply mt-2 bg-blue-600 text-white font-bold py-2 px-4 rounded hover:bg-blue-500 transition duration-200 drop-shadow;
   }
+  section,
+  article {
+    @apply drop-shadow-sm;
+  }
+
   article:nth-child(odd) {
     @apply bg-gray-200;
+  }
+  article:nth-child(even) {
+    @apply bg-white;
   }
   article:nth-child(even) > div {
     @apply md:flex-row-reverse;

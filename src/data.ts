@@ -23,7 +23,7 @@ const projects: ProjectType[] = [
     title: 'Tailwind Showcase',
     image: 'tailwind_showcase.png',
     description: 'Tailwind template with menue, 1/2/3 columns, grid, tabs, accordion, form. Works for React, Vue, and vanilla HTML.',
-    stack: ['Tailwind', 'JavaScript'],
+    stack: ['Tailwind', 'JavaScript', 'HTML', 'CSS'],
     demo: 'https://tailwind-showcase-2l1f.vercel.app',
     git: 'https://github.com/kizuyoko/tailwind-showcase',
   }, {
