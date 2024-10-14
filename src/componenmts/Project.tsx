@@ -29,8 +29,8 @@ const Project = ({ title, description, image, stack, demo, git, index }: Project
         ${isVisible && index === 'odd' ? 'animate-fade-up md:animate-fade-left animate-duration-[2000ms]  animate-ease-out' : ''}
         ${isVisible && index === 'even' ? 'animate-fade-up md:animate-fade-right animate-duration-[2000ms]  animate-ease-out' : ''}
       `} >
-        <div className="w-full md:w-1/4 mb-4 md:mb-0 flex justify-center">
-          <img src={image} alt="Description" className="w-2/3 md:w-full h-auto rounded drop-shadow" />
+        <div className="w-full md:w-1/4 mb-6 md:mb-0 flex justify-center">
+          <img src={image} alt={title} className="w-2/3 md:w-full h-auto rounded drop-shadow" />
         </div>
         <div className={`product-image md:w-3/4 md:pl-10 ${isVisible ? 'animate-fade-up animate-duration-1000 animate-delay-200' : ''}`}>
           <h3>{title}</h3>
