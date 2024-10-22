@@ -11,6 +11,7 @@ const Header: React.FC = () => {
           or  
           <a href="https://github.com/kizuyoko" target="_blank"> GitHub</a>.
         </p>
+        <p></p>
         <small className="text-slate-300">Some of them might be expired, please contact me to activate if you want to try.</small>
       </div>
     </section>

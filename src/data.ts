@@ -10,7 +10,15 @@ export type ProjectType = {
 }
 
 const projects: ProjectType[] = [
-   {
+  {
+    id: 'react-typescript-music',
+    title: 'React TypeScript Music',
+    image: 'react_typescript_music.png',
+    description: 'A dynamic music app that lets users search for their favorite songs, curate custom playlists, and save them directly to Spotify.',
+    stack: ['React.js', 'TypeScript', 'Vite', 'Tailwind', 'Spotify API' ],
+    demo: 'https://react-typescript-music.vercel.app/',
+    git: 'https://github.com/kizuyoko/react-typescript-music',
+  }, {
     id: 'portfolio',
     title: 'Portfolio',
     image: 'portfolio.png',
