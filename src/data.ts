@@ -11,6 +11,15 @@ export type ProjectType = {
 
 const projects: ProjectType[] = [
   {
+    id: 'inspiration-hub',
+    title: 'Inspiration Hub',
+    image: 'inspiration_hub.png',
+    description: 'An app designed to inspire and motivate daily. It allows users to set daily goals with status tracking and automatic sorting for better organization. The app also displays local weather, a random inspirational quote, and a stunning background image to spark creativity and positivity.',
+    stack: ['React.js', 'TypeScript', 'Vite', 'Redux', 'Tailwind', 'API (Open Weather, Unslplash, Quote by DummyJSON)' ],
+    demo: 'https://inspiration-hub-three.vercel.app/',
+    git: 'https://github.com/kizuyoko/inspiration-hub',
+  },
+  {
     id: 'react-typescript-music',
     title: 'React TypeScript Music',
     image: 'react_typescript_music.png',
