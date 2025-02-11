@@ -11,6 +11,14 @@ export type ProjectType = {
 
 const projects: ProjectType[] = [
   {
+    id: 'quickreddit',
+    title: 'Quick Reddit',
+    image: 'quickreddit.png',
+    description: 'Quick Reddit is a fast and intuitive web application that allows users to explore trending Reddit posts effortlessly. Built with Next.js, the app is optimized for SEO and performance while maintaining a clean, responsive design. It integrates the Reddit API for real-time data, enabling users to browse posts by category, search for topics, and vote on posts.',
+    stack: ['Next.js', 'React.js', 'TypeScript', 'Redux', 'Jest and RTL', 'Lighthouse' , 'API', 'Figma', 'Tailwind'],
+    demo: 'https://quickreddit.vercel.app',
+    git: 'https://github.com/kizuyoko/quickreddit',
+  }, {
     id: 'inspiration-hub',
     title: 'Inspiration Hub',
     image: 'inspiration_hub.png',
