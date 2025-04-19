@@ -11,6 +11,15 @@ export type ProjectType = {
 
 const projects: ProjectType[] = [
   {
+    id: 'pokecheck',
+    title:'PokeCheck',
+    image: 'pokecheck.png',
+    description: "PokeCheck is a personal project I'm currently working on to sharpen my skills in TypeScript, Redux, and component-based development. It's a Pokémon matchup checker built with Next.js, Tailwind CSS, and Redux Toolkit. I'm using Jest and Storybook for testing and UI documentation, and the app is being improved with a focus on accessibility and performance. Dummy data is used for now, with plans to connect to the PokéAPI.",
+    stack: ['Next.js', 'TypeScript', 'Jest', 'React', 'Redux', 'Tailwind', 'Storybook', 'Vercel', 'PokéAPI'],
+    demo: 'https://pokecheck-two.vercel.app',
+    git: 'https://github.com/kizuyoko/pokecheck',
+  },
+  {
     id: 'quickreddit',
     title: 'Quick Reddit',
     image: 'quickreddit.png',
