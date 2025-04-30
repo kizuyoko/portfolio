@@ -68,7 +68,15 @@ const projects: ProjectType[] = [
     stack: ['React Native', 'Expo', 'Android', 'iOS', 'EAS'],
     demo: 'https://expo.dev/accounts/kizuyoko/projects/react-native-start/builds/d1518ce4-4d92-47b2-9aa3-a207f5271b56',
     git: 'https://github.com/kizuyoko/react-native-color',
-  },  
+  },  {
+    id: 'reactNativeFood',
+    title: 'React Native Food',
+    image: 'react_native_food.png',
+    description: 'Recipe and favorite list',
+    stack: ['React Native', 'Redux', 'EAS', 'Expo', 'Android', 'iOS' ],
+    demo: 'https://expo.dev/accounts/kizuyoko/projects/react-native-food/builds/db2c58cb-05dc-4409-aac2-4a7659182381',
+    git: 'https://github.com/kizuyoko/react-native-food',
+  }
 /*
   {
     id: 'nextJsFood',
@@ -86,14 +94,6 @@ const projects: ProjectType[] = [
     stack: ['React.js', 'Vite', 'React Patterns', 'Vite'],
     demo: 'https://react-patterns-travel.vercel.app',
     git: 'https://github.com/kizuyoko/react-patterns-travel',
-  }, {
-    id: 'reactNativeFood',
-    title: 'React Native Food',
-    image: 'react_native_food.png',
-    description: 'Recipe and favorite list',
-    stack: ['React Native', 'Redux', 'EAS', 'Expo', 'Android', 'iOS' ],
-    demo: 'https://expo.dev/accounts/kizuyoko/projects/react-native-food/builds/db2c58cb-05dc-4409-aac2-4a7659182381',
-    git: 'https://github.com/kizuyoko/react-native-food',
   },{
     id: 'typeScriptReduxClothing',
     title: 'TypeScript Redux Clothing',
