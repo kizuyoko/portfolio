@@ -18,8 +18,15 @@ const projects: ProjectType[] = [
     stack: ['Next.js', 'TypeScript', 'Jest', 'React', 'Redux', 'LightHouse', 'TanStack Query', 'Axios', 'Tailwind', 'Storybook', 'Vercel', 'PokéAPI'],
     demo: 'https://pokecheck-two.vercel.app',
     git: 'https://github.com/kizuyoko/pokecheck',
-  },
-  {
+  }, {
+    id: 'quickinvoice',
+    title:'Quick Invoice',
+    image: 'quick-invoice.png',
+    description: "Quick Invoice is a responsive invoice management application that allows users to create, view, and manage their invoices effortlessly. Built with Vue.js, TypeScript and Nuxt.js, the app prioritizes speed, accessibility, and user experience. It fetches real-time data from a custom API using TanStack Query and Axios. The project includes unit tests with Jest and Cypress, UI documentation with Storybook, and has been performance-audited with Lighthouse and Wave — achieving top scores on both desktop and mobile.",
+    stack: ['Vue.js', 'Nuxt.js', 'TypeScript', 'Vuex', 'LightHouse', 'Wave', 'Jest', 'Cypress', 'TanStack Query', 'Axios', 'Tailwind', 'Storybook', 'Vercel', 'Figma'],
+    demo: 'https://quick-invoice-eight.vercel.app',
+    git: 'https://github.com/kizuyoko/quick-invoice',
+  }, {
     id: 'quickreddit',
     title: 'Quick Reddit',
     image: 'quickreddit.png',
@@ -27,15 +34,7 @@ const projects: ProjectType[] = [
     stack: ['Next.js', 'React.js', 'TypeScript', 'Redux', 'Jest and RTL', 'Lighthouse' , 'Reddit API', 'Figma', 'Tailwind'],
     demo: 'https://quickreddit.vercel.app',
     git: 'https://github.com/kizuyoko/quickreddit',
-  }, {
-    id: 'quickinvoice',
-    title:'Quick Invoice',
-    image: 'quick-invoice.png',
-    description: "Quick Invoice is a responsive invoice management application that allows users to create, view, and manage their invoices effortlessly. Built with TypeScript and Next.js, the app prioritizes speed, accessibility, and user experience. It fetches real-time data from a custom API using TanStack Query and Axios. The project includes unit tests with Jest, UI documentation with Storybook, and has been performance-audited with Lighthouse — achieving top scores on both desktop and mobile.",
-    stack: ['Nuxt.js', 'Vue.js', 'TypeScript', 'Jest', 'Vuex', 'LightHouse', 'TanStack Query', 'Axios', 'Tailwind', 'Storybook', 'Vercel', 'Figma', 'JSON Server'],
-    demo: 'https://quick-invoice-eight.vercel.app',
-    git: 'https://github.com/kizuyoko/quick-invoice',
-  }, {
+  },  {
     id: 'inspiration-hub',
     title: 'Inspiration Hub',
     image: 'inspiration_hub.png',
