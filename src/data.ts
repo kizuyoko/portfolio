@@ -28,6 +28,14 @@ const projects: ProjectType[] = [
     demo: 'https://quickreddit.vercel.app',
     git: 'https://github.com/kizuyoko/quickreddit',
   }, {
+    id: 'quickinvoice',
+    title:'Quick Invoice',
+    image: 'quick-invoice.png',
+    description: "Quick Invoice is a responsive invoice management application that allows users to create, view, and manage their invoices effortlessly. Built with TypeScript and Next.js, the app prioritizes speed, accessibility, and user experience. It fetches real-time data from a custom API using TanStack Query and Axios. The project includes unit tests with Jest, UI documentation with Storybook, and has been performance-audited with Lighthouse — achieving top scores on both desktop and mobile.",
+    stack: ['Nuxt.js', 'Vue.js', 'TypeScript', 'Jest', 'Vuex', 'LightHouse', 'TanStack Query', 'Axios', 'Tailwind', 'Storybook', 'Vercel', 'Figma', 'JSON Server'],
+    demo: 'https://quick-invoice-eight.vercel.app',
+    git: 'https://github.com/kizuyoko/quick-invoice',
+  }, {
     id: 'inspiration-hub',
     title: 'Inspiration Hub',
     image: 'inspiration_hub.png',
