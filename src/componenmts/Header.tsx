@@ -14,7 +14,7 @@ const Header: React.FC = () => {
         <p></p>
         <small className="text-slate-300">Some of them might be expired, please contact me to activate if you want to try.</small>
         <p className="p-4 mt-6 border border-white rounded">
-          This portfolio is currently being rebuilt!<br />
+          This portfolio has been rebuilt!<br />
           A new and improved version is  <a href="https://yoko-portfolio-kappa.vercel.app" target="_blank">here</a>.
         </p>
       </div>
